@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=stm32f0.map -O1 --gc-sections -LE:\CooCox\CoIDE\configuration\ProgramData\stm32f0 -TE:\CooCox\CoIDE\configuration\ProgramData\stm32f0/arm-gcc-link.ld -g">
+      <target file="stm32f0.elf" lastModified="1638c507f7e">
+         <source file="..\obj\stm32f0xx_crc.o" lastModified="1638c5064b9"/>
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="1638c5065c3"/>
+         <source file="..\obj\flash.o" lastModified="1638c506630"/>
+         <source file="..\obj\stm32f0xx_adc.o" lastModified="1638c50671a"/>
+         <source file="..\obj\ws2812b.o" lastModified="1638c5067f5"/>
+         <source file="..\obj\main.o" lastModified="1638c506ddf"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="1638c506dfe"/>
+         <source file="..\obj\stm32f0xx_dma.o" lastModified="1638c506e8a"/>
+         <source file="..\obj\game_setup.o" lastModified="1638c506f07"/>
+         <source file="..\obj\stm32f0xx_spi.o" lastModified="1638c5070fb"/>
+         <source file="..\obj\stm32f0xx_i2c.o" lastModified="1638c507243"/>
+         <source file="..\obj\system_stm32f0xx_temp.o" lastModified="1638c5072b0"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="1638c50733c"/>
+         <source file="..\obj\stm32f0xx_rtc.o" lastModified="1638c5074b3"/>
+         <source file="..\obj\stm32f0xx_usart.o" lastModified="1638c5075cc"/>
+         <source file="..\obj\stm32f0xx_tim.o" lastModified="1638c50781d"/>
+         <source file="..\obj\stm32f0xx_flash.o" lastModified="1638c507927"/>
+         <source file="..\obj\stm32f0xx_exti.o" lastModified="1638c507994"/>
+         <source file="..\obj\bitmap.o" lastModified="1638c507a11"/>
+         <source file="..\obj\stm32f0xx_syscfg.o" lastModified="1638c507aad"/>
+         <source file="..\obj\stm32f0xx_pwr.o" lastModified="1638c507b1a"/>
+         <source file="..\obj\global_variables.o" lastModified="1638c507b68"/>
+         <source file="..\obj\stm32f0xx_misc.o" lastModified="1638c507c04"/>
+         <source file="..\obj\usart.o" lastModified="1638c507d2d"/>
+      </target>
+   </processor>
+</history>

@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m0 -mthumb -Wall -ffunction-sections -g -O1 -std=gnu99 -c -DSTM32F030F4P6 -DSTM32F030X6 -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Repositories\ARMaDa\FirmWare\trunk\Projects -I..\..\..\..\..\Repositories\ARMaDa\FirmWare\trunk\Projects\LaserTag\BudgetBandanaBluetoothSetup -I..\..\..\..\..\Repositories\ARMaDa\FirmWare\trunk\Projects\LaserTag\BudgetBandanaBluetoothSetup\stm32_lib -I..\..\..\..\..\Repositories\ARMaDa\FirmWare\trunk\Projects\LaserTag\BudgetBandanaBluetoothSetup\cmsis_boot -I..\..\..\..\..\Repositories\ARMaDa\FirmWare\trunk\Projects\LaserTag\BudgetBandanaBluetoothSetup\cmsis_core -I..\..\..\..\..\Repositories\ARMaDa\FirmWare\trunk\Projects\LaserTag\BudgetBandanaBluetoothSetup\cmsis -I..\..\..\..\..\Repositories\ARMaDa\FirmWare\trunk\Projects\LaserTag -I..\..\..\..\..\Repositories\ARMaDa\FirmWare\trunk\Projects\LaserTag\BudgetBandanaBluetoothSetup\ws2812 -I..\..\..\..\..\Repositories\ARMaDa\FirmWare\trunk\Projects\LaserTag\BudgetBandanaBluetoothSetup\ws2812\inc -I..\..\..\..\..\Repositories\ARMaDa\FirmWare\trunk\Projects\LaserTag\BudgetBandanaBluetoothSetup\stm32_lib\inc">
+      <target file="stm32f0xx_rtc.o" lastModified="1638c5074b3">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_rtc.c" lastModified="159dda0bade"/>
+      </target>
+      <target file="stm32f0xx_tim.o" lastModified="1638c50781d">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_tim.c" lastModified="159dda0bb5b"/>
+      </target>
+      <target file="stm32f0xx_adc.o" lastModified="1638c50671a">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_adc.c" lastModified="1624c1fca7c"/>
+      </target>
+      <target file="stm32f0xx_flash.o" lastModified="1638c507927">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_flash.c" lastModified="159dda0b85c"/>
+      </target>
+      <target file="stm32f0xx_dma.o" lastModified="1638c506e8a">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_dma.c" lastModified="159dda0ba12"/>
+      </target>
+      <target file="stm32f0xx_exti.o" lastModified="1638c507994">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_exti.c" lastModified="159dda0bafd"/>
+      </target>
+      <target file="system_stm32f0xx_temp.o" lastModified="1638c5072b0">
+         <source file="..\..\..\cmsis_boot\system_stm32f0xx_temp.c" lastModified="159dda0c0cb"/>
+      </target>
+      <target file="stm32f0xx_gpio.o" lastModified="1638c50733c">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_gpio.c" lastModified="159dda0b966"/>
+      </target>
+      <target file="flash.o" lastModified="1638c506630">
+         <source file="..\..\..\flash.c" lastModified="1630acb8db2"/>
+      </target>
+      <target file="stm32f0xx_spi.o" lastModified="1638c5070fb">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_spi.c" lastModified="159dda0bbe8"/>
+      </target>
+      <target file="stm32f0xx_syscfg.o" lastModified="1638c507aad">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_syscfg.c" lastModified="159dda0b995"/>
+      </target>
+      <target file="stm32f0xx_crc.o" lastModified="1638c5064b9">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_crc.c" lastModified="159dda0ba41"/>
+      </target>
+      <target file="stm32f0xx_rcc.o" lastModified="1638c5065c3">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_rcc.c" lastModified="159dda0ba70"/>
+      </target>
+      <target file="stm32f0xx_pwr.o" lastModified="1638c507b1a">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_pwr.c" lastModified="159dda0ba8f"/>
+      </target>
+      <target file="game_setup.o" lastModified="1638c506f07">
+         <source file="..\..\..\game_setup.c" lastModified="1600b161a07"/>
+      </target>
+      <target file="stm32f0xx_misc.o" lastModified="1638c507c04">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_misc.c" lastModified="159dda0bb99"/>
+      </target>
+      <target file="ws2812b.o" lastModified="1638c5067f5">
+         <source file="..\..\..\ws2812\src\ws2812b.c" lastModified="159dda0c5ce"/>
+      </target>
+      <target file="startup_stm32f0xx.o" lastModified="1638c506dfe">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f0xx.s" lastModified="159dda0c129"/>
+      </target>
+      <target file="stm32f0xx_usart.o" lastModified="1638c5075cc">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_usart.c" lastModified="159dda0b9d4"/>
+      </target>
+      <target file="stm32f0xx_i2c.o" lastModified="1638c507243">
+         <source file="..\..\..\stm32_lib\src\stm32f0xx_i2c.c" lastModified="159dda0b918"/>
+      </target>
+      <target file="global_variables.o" lastModified="1638c507b68">
+         <source file="..\..\..\global_variables.c" lastModified="1628ec07c9a"/>
+      </target>
+      <target file="bitmap.o" lastModified="1638c507a11">
+         <source file="..\..\..\ws2812\src\bitmap.c" lastModified="159dda0c580"/>
+      </target>
+      <target file="usart.o" lastModified="1638c507d2d">
+         <source file="..\..\..\usart.c" lastModified="1630a7e5f01"/>
+      </target>
+      <target file="main.o" lastModified="1638c506ddf">
+         <source file="..\..\..\main.c" lastModified="1638c505e14"/>
+      </target>
+   </processor>
+</history>
